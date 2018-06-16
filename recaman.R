@@ -47,5 +47,5 @@ y <- rep_len(0, length(x))
 
 max_x <- max(x) + max(r)
 max_y <- max(r)
-plot(c(0, 0, max_x), c(-max_y, 0, max_y), type="n",asp = 1,main="Test draw.arc")
+plot(c(0, 0, max_x), c(-max_y, 0, max_y), type="n",asp = 1, xlab="", ylab="", axes=FALSE)
 draw.arc(x=x, y=y, radius=r,deg1=deg1,deg2=deg2)
